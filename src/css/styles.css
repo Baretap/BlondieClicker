@@ -1,0 +1,20 @@
+body { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #f0f0f0;
+}
+#blondie {
+    cursor: pointer;
+}
+#blondie img {
+    max-width: 200px;
+    height: auto;
+}
+#score {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
